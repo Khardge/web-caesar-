@@ -26,11 +26,11 @@ form ="""
     </head>
     <body>
         <form action="/encrypt" method ="POST">
-           <label for= "rot">Rotate by: </label>
-           <input name = "rot" type= "text" vaule="0"></input>
-           <textarea name="text">{0}</textarea>
-           <input type="Submit"></input>
-        </form>
+            <label for="rot">Rotate by: </label>
+            <input type="text" name="rot" value="0" />
+            <textarea name="text">{0}</textarea>
+            <input type="Submit"></input>
+        </form>
     </body>
 </html>
 """
